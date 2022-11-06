@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Hello from './Hello';
+import Student from './Student';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Hello semester='1' desc='React JS Programming' />
+    <Student schoolName='I passed it as props' />
   </React.StrictMode>
 );
 
